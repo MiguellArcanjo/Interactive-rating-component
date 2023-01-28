@@ -1,0 +1,144 @@
+body {
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro {
+    background: hsl(213, 19%, 18%);
+    height: 430px;
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.bola {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background: hsl(214, 6%, 22%);
+    position: absolute;
+    bottom: 340px;
+    left: 30px;
+}
+
+.estrela {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto {
+    font-family: 'Overpass';
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    bottom: 240px;
+    left: 35px;
+}
+
+.texto2 {
+    font-family: 'Overpass';
+    color: hsl(216, 12%, 54%);
+    position: absolute;
+    bottom: 168px;
+    left: 35px;
+    font-weight: 400;
+}
+
+.bola1, .bola2, .bola3, .bola4, .bola5 {
+    background: hsl(214, 6%, 22%);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 115px;
+    font-family: 'Overpass';
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.bola1 {
+    left: 35px;
+}
+
+.bola2 {
+    left: 110px;
+}
+
+.bola3 {
+    left: 185px;
+}
+
+.bola4 {
+    left: 255px;
+}
+
+.bola5 {
+    left: 325px;
+}
+
+.enviar {
+    position: absolute;
+    bottom: 30px;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    font-family: 'Overpass';
+    color: hsl(0, 0%, 100%);
+    background: orange;
+    border: none;
+    cursor: pointer;
+    left: 15%;
+    font-weight: 700;
+    transition: .3s ease-in-out;
+}
+
+.numero {
+    text-align: center;
+    font-weight: 400;
+}
+
+.bola1:hover {
+    background: hsl(217, 12%, 63%);
+    transition: .3s ease-in-out;
+    color: hsl(0, 0%, 100%);
+}
+
+.bola2:hover {
+    background: hsl(217, 12%, 63%);
+    transition: .3s ease-in-out;
+    color: hsl(0, 0%, 100%);
+}
+
+.bola3:hover {
+    background: hsl(217, 12%, 63%);
+    transition: .3s ease-in-out;
+    color: hsl(0, 0%, 100%);
+}
+
+.bola4:hover {
+    background: hsl(217, 12%, 63%);
+    transition: .3s ease-in-out;
+    color: hsl(0, 0%, 100%);
+}
+
+.bola5:hover {
+    background: hsl(217, 12%, 63%);
+    transition: .3s ease-in-out;
+    color: hsl(0, 0%, 100%);
+}
+
+.enviar:hover {
+    background: hsl(0, 0%, 100%);
+    color: orange;
+    transition: .3s ease-in-out;
+}
